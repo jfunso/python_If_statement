@@ -1,0 +1,53 @@
+print("\nBegin session")
+m = 18
+n = 120
+if n > m:
+  print("n is greater than m")
+
+
+print("\nAnother session")
+m = 12
+n = 12
+if n > m:
+  print("n is greater than m")
+elif m == n:
+  print("m and n are equal")
+
+
+print("\nAnother session")
+m = 150
+n = 3
+if n > m:
+  print("n is greater than m")
+elif m == n:
+  print("m and n are equal")
+else:
+  print("m is greater than n")
+
+
+print("\nAnother session")
+m = 50
+n = 3
+if n > m:
+  print("n is greater than m")
+else:
+  print("n is not greater than m")
+
+
+print("\nAnother session")
+m = 100
+n = 7
+d = 350
+if m > n or m > d:
+  print("At least one of the conditions is True")
+
+
+print("\nAnother session")
+x = 60
+
+if x > 18:
+  print("Above Eighteen,")
+  if x > 36:
+    print("and also above 36!")
+  else:
+    print("but not above 36") 
